@@ -50,3 +50,19 @@ LIMIT 10;
 -- ANALYSIS 3: Revenue Over Time
 --------------------------------------------------------
 
+-- Objective: Analyze how total revenue evolves over time
+-- Method: Aggregate revenue per month using invoice date
+
+
+SELECT
+  DATE_TRUNC('month', invoicedate) AS month,
+  ROUND(SUM(quantity * unitprice), 0) AS total_revenue
+FROM online_retail
+GROUP BY month
+ORDER BY month;
+
+-- Result Overview:
+-- Revenue is relatively stable in early 2011, with a dip in February.
+-- From May onward, revenue shows a clear upward trend,
+-- peaking in November (~1.16M).
+-- December revenue is lower, likely due to incomplete data for the month.
