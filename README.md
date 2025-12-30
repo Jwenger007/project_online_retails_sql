@@ -26,7 +26,7 @@ All results reflect **this specific retailer only**, not total online retail act
 - pgAdmin 4
 - SQL
 - Git & GitHub
-- Excel (for optional visualizations)
+- Excel (for  visualizations)
 
 ---
 ## Project Structure
@@ -66,7 +66,7 @@ The **United Kingdom** generates by far the highest revenue, followed by the **N
 **Business Insight:**  
 Sales are heavily concentrated in the UK market, indicating strong domestic performance with smaller but notable international demand.
 
-📊 **[Insert chart here: Revenue by Country]**
+![alt text](image.png)
 
 ---
 
@@ -83,7 +83,7 @@ The most frequently sold products include:
 **Business Insight:**  
 High-volume sales are driven by small, decorative, and gift-oriented items, aligning with the retailer’s product focus.
 
-📊 **[Insert chart here: Top 10 Products by Quantity Sold]**
+![alt text](image-1.png)
 
 ---
 
@@ -97,7 +97,7 @@ Revenue remains relatively stable early in 2011, shows strong growth from mid-ye
 **Business Insight:**  
 The retailer experiences clear seasonal demand, with strong performance toward the end of the year.
 
-📊 **[Insert chart here: Monthly Revenue Trend]**
+![alt text](image-2.png)
 
 ---
 
